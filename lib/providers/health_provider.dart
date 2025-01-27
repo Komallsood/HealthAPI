@@ -210,7 +210,7 @@ class HealthDataProvider with ChangeNotifier {
       // Create a new food item with the specified quantity
       final newFood = food.copyWith(quantity: quantity);
 
-      // Add to the meal's items list
+      // Add to the meal's items of list
       meals[mealType]!.items.add(newFood);
       notifyListeners();
     }
